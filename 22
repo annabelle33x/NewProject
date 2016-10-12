@@ -10,15 +10,16 @@ public class TrafficLight {
 		final int GREEN = 2;
 		
 		int ngjyra = scan.nextInt();	
-		if(ngjyra == RED)
+		
+		if(ngjyra == RED)// ngjyra means color
 		{
 			System.out.println("The color is red, Stop!");
 		}
-		else if(ngjyra == YELLOW)
+		else if(ngjyra == YELLOW) // ngjyra means color
 		{
 			System.out.println("The color is Yellow, bee ready!");
 		}
-		else if(ngjyra == GREEN)
+		else if(ngjyra == GREEN) // ngjyra means color
 		{
 			System.out.println("The color is green. Goo!");
 		}
