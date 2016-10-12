@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class TrafficLight {
+	public static void main(String[]args){
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Traffic Light Color: ");
+		System.out.print("0-Red, 1-Yellow, 2-Green ");
+		final int RED = 0;
+		final int YELLOW = 1;
+		final int GREEN = 2;
+		
+		int ngjyra = scan.nextInt();	
+		if(ngjyra == RED)
+		{
+			System.out.println("The color is red, Stop!");
+		}
+		else if(ngjyra == YELLOW)
+		{
+			System.out.println("The color is Yellow, bee ready!");
+		}
+		else if(ngjyra == GREEN)
+		{
+			System.out.println("The color is green. Goo!");
+		}
+		else
+		{
+			System.out.println("Wrong color");
+		}
+	}
+}
